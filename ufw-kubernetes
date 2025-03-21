@@ -1,0 +1,4 @@
+[Kubernetes Worker]
+title=Firewall preset for Kubernetes Worker node
+description=See https://kubernetes.io/docs/reference/networking/ports-and-protocols/
+ports=10250,10256,30000:32767/tcp
