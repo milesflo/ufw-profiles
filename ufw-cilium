@@ -1,4 +1,4 @@
 [cilium]
 title=Cilium Controller node defaults
 description=See https://docs.cilium.io/en/stable/operations/system_requirements/#firewall-rules
-ports=4240,2379:2380/tcp|8472/udp
+ports=4240,4244,4245,4250,4251,6060:6063,2379:2380,9878:9891,9893,9901,9962:9964/tcp|8472,51871/udp
